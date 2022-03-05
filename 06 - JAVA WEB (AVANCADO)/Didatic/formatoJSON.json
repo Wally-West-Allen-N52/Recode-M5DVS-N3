@@ -1,0 +1,12 @@
+{
+    "nome do objeto": {
+        "nome do par": "valor do par"
+    }
+}
+
+{
+    "pessoaFisica": {
+        "nome": "Wallace",
+        "cpf": "123.456.789-10"
+    }
+}

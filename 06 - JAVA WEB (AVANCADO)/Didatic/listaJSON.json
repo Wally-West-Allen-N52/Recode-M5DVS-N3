@@ -1,0 +1,23 @@
+{
+    "nome obj": [
+        {
+            "nome elemento1": "valor elemento1"
+        },
+        {
+            "nome elemento2": "valor eleemento2"
+        }
+    ]
+}
+
+{
+    "pessoaFisica": {
+        "nome": "Wallce",
+        [
+            "endereco": {
+                "cep": "12345-678",
+                "logradouro": "Rua um"
+            }
+        ],
+        "cpf": "123.456.789-10"
+    }
+}
