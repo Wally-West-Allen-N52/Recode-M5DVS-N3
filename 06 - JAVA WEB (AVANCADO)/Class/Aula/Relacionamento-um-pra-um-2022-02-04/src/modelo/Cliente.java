@@ -21,6 +21,7 @@ public class Cliente {
 		this.nome = nome;
 	}
 
+	// ============== ID/NOME =========================
 	public int getId() {
 		return id;
 	}
@@ -37,6 +38,8 @@ public class Cliente {
 		this.nome = nome;
 	}
 
+	// ============== ID/NOME =========================
+	
 	public List<Conta> getContas() { // LISTA "ARRAY POR TRAS", POSSO RETORNAR UMA OU VARIAS CONTAS
 		return contas;
 	}
