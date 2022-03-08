@@ -1,0 +1,24 @@
+package modelo;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Cliente cliente = new Cliente();
+		Conta conta = new Conta();
+		
+		cliente.setId(10);
+		cliente.setNome("Wallace");
+		
+		conta.setAgencia("101010");
+		conta.setConta("70707070");
+		
+		System.out.println("ID: "+cliente.getId()+""
+				+ " | Nome: "+cliente.getNome());
+		System.out.println("Conta: "+conta.getAgencia()+" | "+"N°Conta: "+conta.getConta());
+		
+		System.out.println(conta.get);
+		System.out.println(cliente.get);
+	}
+
+}

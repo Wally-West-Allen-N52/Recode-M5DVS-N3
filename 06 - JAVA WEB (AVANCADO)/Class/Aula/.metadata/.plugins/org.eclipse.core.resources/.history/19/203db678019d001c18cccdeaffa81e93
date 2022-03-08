@@ -1,0 +1,44 @@
+package modelo;
+
+public class Conta {
+
+	private String agencia;
+	private String numConta;
+	// REFERÊNCIA PARA LIGAÇÃO ENTRE "CONTA" E "CLIENTE"(1,1)
+	private Cliente cliente;
+	
+	public Conta() {
+		super();
+	}
+
+	public Conta(String agencia, String conta) {
+		super();
+		this.agencia = agencia;
+		this.numConta = conta;
+	}
+
+	public String getAgencia() {
+		return agencia;
+	}
+
+	public void setAgencia(String agencia) {
+		this.agencia = agencia;
+	}
+
+	public String getConta() {
+		return numConta;
+	}
+
+	public void setConta(String conta) {
+		this.numConta = conta;
+	}
+
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+
+}

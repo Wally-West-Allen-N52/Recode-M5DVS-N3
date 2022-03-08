@@ -1,0 +1,13 @@
+package modelo;
+
+public class Conta {
+
+	private String agencia;
+	private String conta;
+	
+	public Conta() {
+		super();
+	}
+	
+	
+}

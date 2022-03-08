@@ -1,0 +1,27 @@
+package modelo;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Cliente cliente = new Cliente();
+		Conta conta = new Conta();
+		
+		cliente.setId(10);
+		cliente.setNome("Wallace");
+		
+		conta.setAgencia("101010");
+		conta.setConta("70707070");
+		
+		System.out.println("ID: "+cliente.getId()+"" // CLIENTE TEM ACESSO A "ID DE CLIENTE"
+				+ " | Nome: "+cliente.getNome()); // CLIENTE TEM ACESSO A "NOME DE CLIENTE"
+		
+		System.out.println("Conta: "+conta.getAgencia()+"" // CONTA TEM ACESSO A "AGENCIA DE CONTA"
+				+"N°Conta: "+conta.getConta()); // CONTA TEM ACESSO A "CONTA DE CONTA"
+		
+		System.out.println(conta.getCliente().getId()+"" // CONTA TEM ACESSO A "ID DE CLIENTE"
+				+ " | "+conta.getCliente().getNome()); // CONTA TEM ACESSO A "NOME DE CLIENTE"
+		
+	}
+
+}
