@@ -6,7 +6,8 @@ import Footer from './Footer';
 class App extends React.Component {
   render() {
     return (
-      <div>
+      // "<div></div>" elemento pai
+      <div> 
         <Headers />
         <Article />
         <Footer />
