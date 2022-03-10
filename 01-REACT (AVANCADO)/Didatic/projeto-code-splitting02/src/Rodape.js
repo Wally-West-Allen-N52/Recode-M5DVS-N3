@@ -1,0 +1,18 @@
+// Componente 
+function Rodape() {
+  return (
+    <div>
+      <header>
+        <a
+          className="App-link"
+          href="https://recodepro.org.br/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          &copy;Recode 2022
+        </a>
+      </header>
+    </div>
+  )
+}
+export default Rodape;
