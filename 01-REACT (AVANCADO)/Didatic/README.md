@@ -15,3 +15,9 @@
 # Ferramente de teste 'Slow 3G'
 ## Simula uma rede 3G lenta para vizualizar as modificações de componentes no browser
 
+# Tecnica SSR(Side Server Rendering)
+##
+
+# Configuração de nova proota para servidor
+## npm install webpack-cli webpack-node-externals @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+
